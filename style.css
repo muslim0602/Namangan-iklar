@@ -585,6 +585,7 @@ margin-top: 31px;
 }
 
 .section-list-item-fbm{
+  display: inline-block;
   width: 797px;
   list-style: none;
   margin-right: 10px;
@@ -626,6 +627,7 @@ margin-top: 31px;
   height: 300px;
   border-radius: 13px;
 }
+
 .main-footer{
   display: flex;
   padding: 0;
