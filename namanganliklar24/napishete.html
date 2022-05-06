@@ -69,16 +69,21 @@
         </ul>
       </div>
       <hr>
+      <h2 class="napishete-nam-heading">Напишите нам</h2>
       <section class="napishete-contents container">
-        <h2>Напишите нам</h2>
         <div class="about-personal-info">
           <form action="">
-            <input class="about-personal-info-name" type="text" placeholder="Имя">
-            <input class="about-personal-info-tel" type="text" placeholder="Номер телефона">
-            <input class="about-personal-info-email" type="text" placeholder="Электронная почта">
-            <input class="about-personal-info-text" type="text" placeholder="Текст">
+            <input class="about-personal-info-name" name="name" type="text" placeholder="Имя" required>
+            <input class="about-personal-info-tel" name="phone-number" type="text" placeholder="Номер телефона"
+              required>
+            <input class="about-personal-info-email" name="email" type="text" placeholder="Электронная почта" required>
+            <textarea class="about-personal-info-text" name="text" placeholder="Текст"></textarea>
+
           </form>
-         </div>
+        </div>
+        <div class="napishete-contents-contacts">
+
+        </div>
       </section>
 
     </div>
