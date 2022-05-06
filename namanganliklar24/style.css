@@ -691,11 +691,17 @@ align-items: center;
   margin-right: 10px;
   margin-left: 10px;
 }
-
-.napishete-contents{
+.napishete-nam{
   display: flex;
-  padding-left: 0;
+}
+.napishete-contents{
   margin-top: 60px;
+  padding-left: 0;
+
+}
+
+.about-personal-info{
+  margin-right: 10px;
 }
 
 .about-personal-info-name{
@@ -777,4 +783,6 @@ align-items: center;
  width: 494px;
  height: 310px;
  background-color: #f6f6f6;
+ border-radius: 10px;
+ padding: 40px 25px;
 }
