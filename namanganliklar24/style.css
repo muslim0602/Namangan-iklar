@@ -20,6 +20,7 @@
   padding-right: 20px;
 
 
+
 }
 
 .site-header {
@@ -526,11 +527,14 @@ margin-right: 10px;
   color: #fff;
   margin-top: 100px;
 }
-
+.site-footer-container{
+  width: 1200px;
+  background-color: coral;
+}
 .site-footer-content{
   width: 998px;
   display: flex;
-  justify-content: space-between;
+
 }
 .site-footer-list-item{
   font-family: 'Rubik';
@@ -565,12 +569,15 @@ margin-right: 10px;
   color: #fff;
 }
 .site-footer-content-p{
-
+  display: block;
+  width: 229px;
+  height: 95px;
   font-family: 'Rubik',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
+  margin-right: 203px;
 }
 .social-net-list{
 display: flex;
@@ -593,11 +600,23 @@ margin-top: 31px;
   padding-bottom: 50px;
   border-bottom: 1px solid #d2d2d2;
 }
-.site-footer-text-1{
-  padding-left: 0;
+
+.site-footer-text-1-list{
+  width: 167px;
+
+  padding: 0;
+  margin-right: 100px;
 }
+
+.site-footer-text-2-list{
+  width: 324px;
+  margin-right: 100px;
+  padding: 0;
+}
+
 .site-footer-text-2{
   padding-left: 0;
+  margin-right: 100px;
 }
 .fbm-section{
   display: flex;
@@ -697,6 +716,7 @@ align-items: center;
 .napishete-contents{
   margin-top: 60px;
   padding-left: 0;
+  padding-right: 0;
 
 }
 
@@ -785,4 +805,84 @@ align-items: center;
  background-color: #f6f6f6;
  border-radius: 10px;
  padding: 40px 25px;
+}
+.napishete-nam-contacts-heading{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+.napishete-nam-contacts-hr{
+  margin: 20px 0px;
+}
+.napishete-nam-contacts-content{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.otpravit-href{
+  text-decoration: none;
+  color: #fff;
+}
+.napishete-nam-btn{
+  display: block;
+  width: 145px;
+  height: 53px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  background: #7297EF;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 550px;
+  }
+
+.modal{
+
+  width: 1440px;
+  height: 1030px;
+  padding: 390px 295px 389px 295px;
+  background-color: coral;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 850px;
+  height: 251px;
+  padding: 50px 169px ;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+.modal-heading{
+width: 512px;
+height: 68px;font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 34px;
+text-align: center;
+margin-bottom: 25px;
+color: #000000;
+}
+.modal-btn{
+  width: 187px;
+  height: 58px;
+  border: none;
+  padding: 15px 40px;
+  background: #F78B3B;
+  border-radius: 10px;
+  color: #fff;
 }
