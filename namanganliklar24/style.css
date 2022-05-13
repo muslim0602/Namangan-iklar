@@ -547,6 +547,9 @@ margin-right: 10px;
 .site-footer-list-item:not(:last-child){
   margin-bottom: 20px;
 }
+.site-footer-list-item:hover{
+  text-decoration: underline;
+}
 .site-footer-section{
   font-family: 'Rubik';
   font-style: normal;
@@ -577,7 +580,21 @@ margin-right: 10px;
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
-  margin-right: 203px;
+  margin-right: 200px;
+}
+
+.site-footer-links-wrapper{
+  flex-grow: 1;
+  display: flex;
+}
+.site-footer-links{
+  width: 50%;
+  padding-left: 0;
+  padding-right: 24px;
+  margin: 0;
+  list-style: none;
+  font-weight: 500;
+
 }
 .social-net-list{
 display: flex;
@@ -601,23 +618,7 @@ margin-top: 31px;
   border-bottom: 1px solid #d2d2d2;
 }
 
-.site-footer-text-1-list{
-  width: 167px;
 
-  padding: 0;
-  margin-right: 100px;
-}
-
-.site-footer-text-2-list{
-  width: 324px;
-  margin-right: 100px;
-  padding: 0;
-}
-
-.site-footer-text-2{
-  padding-left: 0;
-  margin-right: 100px;
-}
 .fbm-section{
   display: flex;
   padding-left: 0;
